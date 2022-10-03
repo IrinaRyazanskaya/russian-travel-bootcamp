@@ -1,0 +1,16 @@
+.header__language-link {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.header__language-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 470px) {
+  .header__language-link {
+    font-size: 18px;
+  }
+}
