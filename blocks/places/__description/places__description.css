@@ -1,0 +1,16 @@
+.places__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.places__description + .places__description {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 970px) {
+  .places__description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
