@@ -8,6 +8,10 @@
   gap: 48px 40px;
 }
 
+.places__place-card + .places__place-card {
+  margin-top: 80px;
+}
+
 @media screen and (max-width: 1024px) {
   .places__place-card {
     grid-template-columns: 440px 456px;
@@ -19,6 +23,10 @@
   .places__place-card {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
+  }
+
+  .places__place-card + .places__place-card {
+    margin-top: 73px;
   }
 }
 
@@ -32,6 +40,10 @@
       "image"
       "description";
     gap: 32px;
+  }
+
+  .places__place-card + .places__place-card {
+    margin-top: 50px;
   }
 }
 

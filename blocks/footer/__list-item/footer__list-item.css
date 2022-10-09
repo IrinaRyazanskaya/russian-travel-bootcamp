@@ -2,8 +2,16 @@
   margin-right: 18px;
 }
 
+.footer__list-item:last-of-type {
+  margin-right: 0;
+}
+
 @media screen and (max-width: 750px) {
   .footer__list-item {
     margin: 0 0 32px 0;
+  }
+
+  .footer__list-item:last-of-type {
+    margin-bottom: 0;
   }
 }
